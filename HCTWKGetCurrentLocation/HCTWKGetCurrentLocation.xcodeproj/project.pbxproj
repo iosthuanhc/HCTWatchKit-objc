@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5978D281B0B41830039DABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D271B0B41830039DABE /* main.m */; };
+		E5978D2B1B0B41830039DABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D2A1B0B41830039DABE /* AppDelegate.m */; };
+		E5978D2E1B0B41830039DABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D2D1B0B41830039DABE /* ViewController.m */; };
+		E5978D311B0B41830039DABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5978D2F1B0B41830039DABE /* Main.storyboard */; };
+		E5978D331B0B41830039DABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5978D321B0B41830039DABE /* Images.xcassets */; };
+		E5978D361B0B41830039DABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5978D341B0B41830039DABE /* LaunchScreen.xib */; };
+		E5978D421B0B41830039DABE /* HCTWKGetCurrentLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D411B0B41830039DABE /* HCTWKGetCurrentLocationTests.m */; };
+		E5978D561B0B41DA0039DABE /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D551B0B41DA0039DABE /* InterfaceController.m */; };
+		E5978D591B0B41DA0039DABE /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5978D581B0B41DA0039DABE /* NotificationController.m */; };
+		E5978D5B1B0B41DA0039DABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5978D5A1B0B41DA0039DABE /* Images.xcassets */; };
+		E5978D5F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = E5978D5E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app */; };
+		E5978D671B0B41DA0039DABE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5978D651B0B41DA0039DABE /* Interface.storyboard */; };
+		E5978D691B0B41DA0039DABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5978D681B0B41DA0039DABE /* Images.xcassets */; };
+		E5978D6C1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E5978D4F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5978D3C1B0B41830039DABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5978D1A1B0B41830039DABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5978D211B0B41830039DABE;
+			remoteInfo = HCTWKGetCurrentLocation;
+		};
+		E5978D601B0B41DA0039DABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5978D1A1B0B41830039DABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5978D5D1B0B41DA0039DABE;
+			remoteInfo = "HCTWKGetCurrentLocation WatchKit App";
+		};
+		E5978D6A1B0B41DA0039DABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5978D1A1B0B41830039DABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5978D4E1B0B41DA0039DABE;
+			remoteInfo = "HCTWKGetCurrentLocation WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5978D731B0B41DA0039DABE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E5978D6C1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5978D221B0B41830039DABE /* HCTWKGetCurrentLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCTWKGetCurrentLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5978D261B0B41830039DABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5978D271B0B41830039DABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5978D291B0B41830039DABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5978D2A1B0B41830039DABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5978D2C1B0B41830039DABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5978D2D1B0B41830039DABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5978D301B0B41830039DABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5978D321B0B41830039DABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5978D351B0B41830039DABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E5978D3B1B0B41830039DABE /* HCTWKGetCurrentLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCTWKGetCurrentLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5978D401B0B41830039DABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5978D411B0B41830039DABE /* HCTWKGetCurrentLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTWKGetCurrentLocationTests.m; sourceTree = "<group>"; };
+		E5978D4F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HCTWKGetCurrentLocation WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5978D521B0B41DA0039DABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5978D531B0B41DA0039DABE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E5978D541B0B41DA0039DABE /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		E5978D551B0B41DA0039DABE /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		E5978D571B0B41DA0039DABE /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		E5978D581B0B41DA0039DABE /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		E5978D5A1B0B41DA0039DABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5978D5E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HCTWKGetCurrentLocation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5978D641B0B41DA0039DABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5978D661B0B41DA0039DABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E5978D681B0B41DA0039DABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5978D1F1B0B41830039DABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D381B0B41830039DABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D4C1B0B41DA0039DABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5978D191B0B41830039DABE = {
+			isa = PBXGroup;
+			children = (
+				E5978D241B0B41830039DABE /* HCTWKGetCurrentLocation */,
+				E5978D3E1B0B41830039DABE /* HCTWKGetCurrentLocationTests */,
+				E5978D501B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension */,
+				E5978D621B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App */,
+				E5978D231B0B41830039DABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5978D231B0B41830039DABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D221B0B41830039DABE /* HCTWKGetCurrentLocation.app */,
+				E5978D3B1B0B41830039DABE /* HCTWKGetCurrentLocationTests.xctest */,
+				E5978D4F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex */,
+				E5978D5E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5978D241B0B41830039DABE /* HCTWKGetCurrentLocation */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D291B0B41830039DABE /* AppDelegate.h */,
+				E5978D2A1B0B41830039DABE /* AppDelegate.m */,
+				E5978D2C1B0B41830039DABE /* ViewController.h */,
+				E5978D2D1B0B41830039DABE /* ViewController.m */,
+				E5978D2F1B0B41830039DABE /* Main.storyboard */,
+				E5978D321B0B41830039DABE /* Images.xcassets */,
+				E5978D341B0B41830039DABE /* LaunchScreen.xib */,
+				E5978D251B0B41830039DABE /* Supporting Files */,
+			);
+			path = HCTWKGetCurrentLocation;
+			sourceTree = "<group>";
+		};
+		E5978D251B0B41830039DABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D261B0B41830039DABE /* Info.plist */,
+				E5978D271B0B41830039DABE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5978D3E1B0B41830039DABE /* HCTWKGetCurrentLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D411B0B41830039DABE /* HCTWKGetCurrentLocationTests.m */,
+				E5978D3F1B0B41830039DABE /* Supporting Files */,
+			);
+			path = HCTWKGetCurrentLocationTests;
+			sourceTree = "<group>";
+		};
+		E5978D3F1B0B41830039DABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D401B0B41830039DABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5978D501B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D541B0B41DA0039DABE /* InterfaceController.h */,
+				E5978D551B0B41DA0039DABE /* InterfaceController.m */,
+				E5978D571B0B41DA0039DABE /* NotificationController.h */,
+				E5978D581B0B41DA0039DABE /* NotificationController.m */,
+				E5978D5A1B0B41DA0039DABE /* Images.xcassets */,
+				E5978D511B0B41DA0039DABE /* Supporting Files */,
+			);
+			path = "HCTWKGetCurrentLocation WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E5978D511B0B41DA0039DABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D521B0B41DA0039DABE /* Info.plist */,
+				E5978D531B0B41DA0039DABE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5978D621B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D651B0B41DA0039DABE /* Interface.storyboard */,
+				E5978D681B0B41DA0039DABE /* Images.xcassets */,
+				E5978D631B0B41DA0039DABE /* Supporting Files */,
+			);
+			path = "HCTWKGetCurrentLocation WatchKit App";
+			sourceTree = "<group>";
+		};
+		E5978D631B0B41DA0039DABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5978D641B0B41DA0039DABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5978D211B0B41830039DABE /* HCTWKGetCurrentLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5978D451B0B41830039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation" */;
+			buildPhases = (
+				E5978D1E1B0B41830039DABE /* Sources */,
+				E5978D1F1B0B41830039DABE /* Frameworks */,
+				E5978D201B0B41830039DABE /* Resources */,
+				E5978D731B0B41DA0039DABE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5978D6B1B0B41DA0039DABE /* PBXTargetDependency */,
+			);
+			name = HCTWKGetCurrentLocation;
+			productName = HCTWKGetCurrentLocation;
+			productReference = E5978D221B0B41830039DABE /* HCTWKGetCurrentLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5978D3A1B0B41830039DABE /* HCTWKGetCurrentLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5978D481B0B41830039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocationTests" */;
+			buildPhases = (
+				E5978D371B0B41830039DABE /* Sources */,
+				E5978D381B0B41830039DABE /* Frameworks */,
+				E5978D391B0B41830039DABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5978D3D1B0B41830039DABE /* PBXTargetDependency */,
+			);
+			name = HCTWKGetCurrentLocationTests;
+			productName = HCTWKGetCurrentLocationTests;
+			productReference = E5978D3B1B0B41830039DABE /* HCTWKGetCurrentLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5978D4E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5978D701B0B41DA0039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation WatchKit Extension" */;
+			buildPhases = (
+				E5978D4B1B0B41DA0039DABE /* Sources */,
+				E5978D4C1B0B41DA0039DABE /* Frameworks */,
+				E5978D4D1B0B41DA0039DABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5978D611B0B41DA0039DABE /* PBXTargetDependency */,
+			);
+			name = "HCTWKGetCurrentLocation WatchKit Extension";
+			productName = "HCTWKGetCurrentLocation WatchKit Extension";
+			productReference = E5978D4F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		E5978D5D1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5978D6D1B0B41DA0039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation WatchKit App" */;
+			buildPhases = (
+				E5978D5C1B0B41DA0039DABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HCTWKGetCurrentLocation WatchKit App";
+			productName = "HCTWKGetCurrentLocation WatchKit App";
+			productReference = E5978D5E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5978D1A1B0B41830039DABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ha Cong Thuan";
+				TargetAttributes = {
+					E5978D211B0B41830039DABE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E5978D3A1B0B41830039DABE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E5978D211B0B41830039DABE;
+					};
+					E5978D4E1B0B41DA0039DABE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E5978D5D1B0B41DA0039DABE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E5978D1D1B0B41830039DABE /* Build configuration list for PBXProject "HCTWKGetCurrentLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5978D191B0B41830039DABE;
+			productRefGroup = E5978D231B0B41830039DABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5978D211B0B41830039DABE /* HCTWKGetCurrentLocation */,
+				E5978D3A1B0B41830039DABE /* HCTWKGetCurrentLocationTests */,
+				E5978D4E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension */,
+				E5978D5D1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5978D201B0B41830039DABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D311B0B41830039DABE /* Main.storyboard in Resources */,
+				E5978D361B0B41830039DABE /* LaunchScreen.xib in Resources */,
+				E5978D331B0B41830039DABE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D391B0B41830039DABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D4D1B0B41DA0039DABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D5F1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App.app in Resources */,
+				E5978D5B1B0B41DA0039DABE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D5C1B0B41DA0039DABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D671B0B41DA0039DABE /* Interface.storyboard in Resources */,
+				E5978D691B0B41DA0039DABE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5978D1E1B0B41830039DABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D2E1B0B41830039DABE /* ViewController.m in Sources */,
+				E5978D2B1B0B41830039DABE /* AppDelegate.m in Sources */,
+				E5978D281B0B41830039DABE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D371B0B41830039DABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D421B0B41830039DABE /* HCTWKGetCurrentLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5978D4B1B0B41DA0039DABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5978D591B0B41DA0039DABE /* NotificationController.m in Sources */,
+				E5978D561B0B41DA0039DABE /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5978D3D1B0B41830039DABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5978D211B0B41830039DABE /* HCTWKGetCurrentLocation */;
+			targetProxy = E5978D3C1B0B41830039DABE /* PBXContainerItemProxy */;
+		};
+		E5978D611B0B41DA0039DABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5978D5D1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit App */;
+			targetProxy = E5978D601B0B41DA0039DABE /* PBXContainerItemProxy */;
+		};
+		E5978D6B1B0B41DA0039DABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5978D4E1B0B41DA0039DABE /* HCTWKGetCurrentLocation WatchKit Extension */;
+			targetProxy = E5978D6A1B0B41DA0039DABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5978D2F1B0B41830039DABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5978D301B0B41830039DABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5978D341B0B41830039DABE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5978D351B0B41830039DABE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E5978D651B0B41DA0039DABE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5978D661B0B41DA0039DABE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5978D431B0B41830039DABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5978D441B0B41830039DABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5978D461B0B41830039DABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCTWKGetCurrentLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5978D471B0B41830039DABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCTWKGetCurrentLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5978D491B0B41830039DABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCTWKGetCurrentLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCTWKGetCurrentLocation.app/HCTWKGetCurrentLocation";
+			};
+			name = Debug;
+		};
+		E5978D4A1B0B41830039DABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCTWKGetCurrentLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCTWKGetCurrentLocation.app/HCTWKGetCurrentLocation";
+			};
+			name = Release;
+		};
+		E5978D6E1B0B41DA0039DABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HCTWKGetCurrentLocation_WatchKit_Extension;
+				INFOPLIST_FILE = "HCTWKGetCurrentLocation WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		E5978D6F1B0B41DA0039DABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HCTWKGetCurrentLocation_WatchKit_Extension;
+				INFOPLIST_FILE = "HCTWKGetCurrentLocation WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		E5978D711B0B41DA0039DABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HCTWKGetCurrentLocation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E5978D721B0B41DA0039DABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HCTWKGetCurrentLocation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5978D1D1B0B41830039DABE /* Build configuration list for PBXProject "HCTWKGetCurrentLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5978D431B0B41830039DABE /* Debug */,
+				E5978D441B0B41830039DABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5978D451B0B41830039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5978D461B0B41830039DABE /* Debug */,
+				E5978D471B0B41830039DABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5978D481B0B41830039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5978D491B0B41830039DABE /* Debug */,
+				E5978D4A1B0B41830039DABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5978D6D1B0B41DA0039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5978D6E1B0B41DA0039DABE /* Debug */,
+				E5978D6F1B0B41DA0039DABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5978D701B0B41DA0039DABE /* Build configuration list for PBXNativeTarget "HCTWKGetCurrentLocation WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5978D711B0B41DA0039DABE /* Debug */,
+				E5978D721B0B41DA0039DABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5978D1A1B0B41830039DABE /* Project object */;
+}
